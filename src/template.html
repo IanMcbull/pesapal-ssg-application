@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ian's Blog</title>
+    <meta name="author" content="name" />
+    <meta name="description" content="ian Blogging Platform" />
+    <meta name="keywords" content="blogs" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&family=Zilla+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="/dist/output.css" rel="stylesheet">
+  </head>
+  <body class="bg-black">
+    <main class="container relative min-h-screen p-4 mx-auto transition-all">
+      <nav class="flex justify-between pt-6 items-center text-white">
+        <a href="index.html" class="font-bold text-4xl font-logo-satisfy">Ian's Blog</a>
+        <!--Mobile Menu-->
+        <div class="md:hidden flex flex-col relative">
+          <i
+            class="fa-solid fa-bars-staggered text-white text-3xl cursor-pointer"
+          ></i>
+          <div
+            class="absolute top-12 right-0 w-[390px] py-6 rounded-md mobile-menu shadow-2xl hidden"
+          >
+            <ul
+              class="flex flex-col text-xl font-logo-zilla font-semibold gap-4 items-center"
+            >
+              <!--NAV_LINKS-->
+              <li>
+                <a
+                  href="index.html"
+                  class="transition ease-in-out delay-150 hover:-translate-y-1 hover:text-orange-400 duration-300"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="blogs.html"
+                  class="transition ease-in-out delay-150 hover:-translate-y-1 hover:text-orange-400 duration-300"
+                  >Blogs</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="transition ease-in-out delay-100 hover:-translate-y-1 hover:text-orange-400 duration-300"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Desktop Menu-->
+        <ul class="hidden md:flex gap-16 text-xl font-logo-zilla font-semibold">
+          <li>
+            <a
+              href="index.html"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:text-orange-400 duration-300"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="blogs.html"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:text-orange-400 duration-300"
+              >Blogs</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="transition ease-in-out delay-100 hover:-translate-y-1 hover:text-orange-400 duration-300"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <article class="flex flex-col gap-8 items-center">
+        <div class="prose prose-img:max-h-[300px] prose-img:w-full prose-img:object-cover prose-img:rounded-md dark:prose-invert prose-2xl mt-12">
+          <!--CONTENT-->
+        </div>
+      </article>
+      <footer
+        class="flex flex-col text-white items-center gap-8 w-full py-8 mt-6"
+      >
+        <a href="#" class="font-bold text-2xl font-logo-satisfy text-center"
+          >Ian's Blog</a
+        >
+        <ul class="flex gap-16 text-xl font-logo-zilla font-semibold">
+          <li>
+            <a
+              href="index.html"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:text-orange-400 duration-300"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="blogs.html"
+              class="transition ease-in-out delay-150 hover:-translate-y-1 hover:text-orange-400 duration-300"
+              >Blogs</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="transition ease-in-out delay-100 hover:-translate-y-1 hover:text-orange-400 duration-300"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </main>
+    <script>
+      const toggleNav = () => {
+        const menu = document.querySelector(".mobile-menu");
+        menu.classList.contains("hidden")
+          ? menu.classList.remove("hidden")
+          : menu.classList.add("hidden");
+      };
+      const burgerMenuBtn = document.querySelector(".fa-bars-staggered");
+      burgerMenuBtn.addEventListener("click", toggleNav);
+    </script>
+  </body>
+</html>
