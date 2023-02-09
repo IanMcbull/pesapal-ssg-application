@@ -29,7 +29,9 @@ It should be able to
 ## Running the app
 - clone or download the project
 - Run `npm install` or `pnpm install` to install the necessary dependancies
-- Run `npm run dev` or `pnpm run dev` to open the application in development mode. This will build out the dist folder where your static files will live and watch for changes. 
+- The project is using tailwind css. so to get tailwind up and running during development mode, open your terminal and run `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`
+This should start the tailwind dev server which will watch for changes in the input.css file.
+- Once tailwind is up and running, open another terminla and run `npm run dev` or `pnpm run dev` to open the application in development mode. This will build out the dist folder where your static files will live and watch for changes. 
 - Navigate into the dist folder and open the index.html file using VSCode live server extension.
 
 
