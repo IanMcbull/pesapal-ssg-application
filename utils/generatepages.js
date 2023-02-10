@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import { mkdirp } from "mkdirp";
 import glob from "glob"
-// I use the glog package to find one or more filenames that have a .md extension and returning an array of the files
+// I use the glob package to find one or more filenames that have a .md extension and returning an array of the files
 
 const pages = glob.sync('src/pages/**/*.md')
 

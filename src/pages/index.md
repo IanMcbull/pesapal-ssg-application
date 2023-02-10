@@ -11,4 +11,3 @@ date: Jan 28 2023
 
 This is my little piece of the internet. I blog about a wide variety of things. From tech 🧑‍💻 to dogs 🐕 to life in general.
 
-To add your own content, edit the src/pages and add your own content

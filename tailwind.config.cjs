@@ -6,7 +6,6 @@ module.exports = {
     fontFamily: {
       "logo-satisfy": ["Satisfy", "cursive"],
       "logo-zilla": ["Zilla Slab", "serif"],
-      "logo-graphers": ["logo-graphers"],
     },
   },
   plugins: [
