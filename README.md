@@ -24,8 +24,9 @@ It should be able to
 
 ![Desktop View](./src/assets/images/desktop-view-two.png)
 
-## Prerequisites to run the app
+## Pre-requisites to run the app
 - Nodejs needs to be installed to run the application
+- Access to the terminal to start the application
 
 
 ## Running the app
