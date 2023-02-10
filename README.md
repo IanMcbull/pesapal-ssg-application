@@ -1,6 +1,6 @@
 # Pesapal - Static Site Generator Solution
 
-This is my solution to [problem 2 - Static Site Generator](https://pesapal.freshteam.com/jobs/2OU7qEKgG4DR/junior-developer-23)
+This is my solution to [problem 1 - Static Site Generator](https://pesapal.freshteam.com/jobs/2OU7qEKgG4DR/junior-developer-23)
 
 
 
